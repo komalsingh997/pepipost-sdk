@@ -7,8 +7,8 @@
 package PepipostClient
 
 import(
-	"pepipost_lib/configuration_pkg"
-	"pepipost_lib/email_pkg"
+	"github.com/komalsingh997/pepipost-sdk/src/pepipost_lib/configuration_pkg"
+	"github.com/komalsingh997/pepipost-sdk/src/pepipost_lib/email_pkg"
 )
 /*
  * Client structure as interface implementation

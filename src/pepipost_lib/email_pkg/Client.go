@@ -56,7 +56,7 @@ func (me *EMAIL_IMPL) CreateSendEmail(
 	//prepare API request
 	_request := unirest.Post(_queryBuilder, headers, body)
 	//and invoke the API call request to fetch the response
-	_response, err := unirest.AsString(_request)
+	_response, err := unirest.AsString(_request,false)
 	if err != nil {
 		//error in API invocation
 		return nil, err
